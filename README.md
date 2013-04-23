@@ -16,6 +16,7 @@ Tecnologias utilizadas na implementação:
 * Vaadin: utilizamos o Vaadin para desenvolvimento da camada visual (front-end) e integração com os serviços de negócio (servidor);
 * JPA: mecanismo padrão do Java para resolver o mapeamento objeto relacional (ORM);
 * Hibernate: provedor JPA.
+* Bean Validation: mecanismo padrão do Java para determinar regras de validação através de anotações;
 
 Pré-requisitos
 -------
@@ -23,6 +24,8 @@ Pré-requisitos
 * Eclipse IDE - o projeto possui as configurações do Eclipse;
 * Plugin do Vaadin para Eclipse (opcional) - plugin com funcionalidades para desenvolvimento com o Vaadin.
 * Maven - para build e dependências.
+* Web Servlet Java EE - Apache Tomcat 7 ou mais recente;
+* MySQL - versão 5 ou mais recente;
 
 Saiba mais
 -------
