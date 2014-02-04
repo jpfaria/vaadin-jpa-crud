@@ -1,5 +1,4 @@
-/target
-/src/main/webapp/VAADIN/
+src/main/webapp/VAADIN/
 src/main/webapp/WEB-INF/lib
 src/main/webapp/WEB-INF/classes
 dist/
