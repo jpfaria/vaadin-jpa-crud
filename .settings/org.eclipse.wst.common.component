@@ -2,7 +2,6 @@
 	<wb-module deploy-name="vaadin-jpa-crud">
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
         <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
 		<property name="context-root" value="vaadin-jpa-crud"/>
 		<property name="java-output-path" value="/vaadin-jpa-crud/target/classes"/>
