@@ -1,0 +1,18 @@
+<project name="vaadin-jpa-crud">
+
+	<property file="build.properties" />
+
+	<import>
+		<url url="${ant.xml.url}/target/main.xml" />
+		<url url="${ant.xml.url}/target/ant-contrib.xml" />
+		<url url="${ant.xml.url}/target/ivy.xml" />
+		<url url="${ant.xml.url}/target/webapp.xml" />
+	</import>
+
+	<!-- ================================= 
+          target: setup
+         ================================= -->
+	<target name="setup" depends="webapp.init,ivy.install,ant.contrib.install,ivy.resolve" description="Setup project" />
+
+	
+</project>

@@ -1,0 +1,5 @@
+<ivysettings>
+	 
+    <include url="${ant.xml.url}/ivy/ivysettings.xml"/>
+	
+</ivysettings>
