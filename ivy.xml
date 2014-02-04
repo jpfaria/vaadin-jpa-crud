@@ -15,13 +15,14 @@
 		<dependency org="com.vaadin" name="vaadin-client-compiled" rev="7.0.3" conf="runtime->default"/>
 		<dependency org="com.vaadin" name="vaadin-client" rev="7.0.3" conf="runtime->default"/>
 		<dependency org="com.vaadin" name="vaadin-themes" rev="7.0.3" conf="runtime->default"/>
-        <!-- <dependency org="com.vaadin.addon" name="jpacontainer-addon" rev="3.0.0-SNAPSHOT" conf="runtime->default"/>  -->
+        <dependency org="com.vaadin.addon" name="jpacontainer-addon" rev="3.0.0-SNAPSHOT" conf="runtime->default"/>
 		<dependency org="org.vaadin.addon" name="confirmdialog" rev="2.0.4" conf="runtime->default"/>
 		<dependency org="org.slf4j" name="slf4j-api" rev="1.6.4" conf="runtime->default"/>
 		<dependency org="org.hibernate" name="hibernate-core" rev="4.1.6.Final" conf="runtime->default"/>
 		<dependency org="org.hibernate" name="hibernate-entitymanager" rev="4.1.6.Final" conf="runtime->default"/>
 		<dependency org="org.hibernate" name="hibernate-validator" rev="4.3.1.Final" conf="runtime->default"/>
 		<dependency org="log4j" name="log4j" rev="1.2.16" conf="runtime->default"/>
+		<dependency org="mysql" name="mysql-connector-java" rev="5.1.24" conf="runtime->default"/>
 
 	</dependencies>
 

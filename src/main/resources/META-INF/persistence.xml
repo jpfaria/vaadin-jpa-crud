@@ -5,9 +5,14 @@
 	<persistence-unit name="appVaadinUnit"
 		transaction-type="RESOURCE_LOCAL">
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
-		<non-jta-data-source>java:/comp/env/jdbc/MysqlDS</non-jta-data-source>
 		<properties>
-			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" />
+			<property name="hibernate.connection.username" value="root"/>
+      		<property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
+      		<property name="hibernate.connection.password" value="root"/>
+      		<property name="hibernate.connection.url" value="jdbc:mysql://10.0.35.10:3306/vaadin-jpa-crud"/>
+      		<property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider"/>
+			
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
 			<property name="hibernate.show_sql" value="true" />
 			<property name="hibernate.hbm2ddl.auto" value="update" />
 			<property name="hibernate.connection.charSet" value="UTF-8" />
