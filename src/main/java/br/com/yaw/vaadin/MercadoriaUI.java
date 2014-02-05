@@ -39,7 +39,7 @@ import com.vaadin.ui.themes.Runo;
  * 
  * @see <code>web.xml</code>
  */
-@Theme("runo")
+@Theme("chameleon")
 @SuppressWarnings("serial")
 public class MercadoriaUI extends UI {
 	

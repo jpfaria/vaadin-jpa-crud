@@ -1,7 +1,7 @@
 package br.com.yaw.vaadin.model;
 
 import java.io.Serializable;
-
+ 
 /**
  * Estipula um contrato base para as entidades persistentes da aplicação.
  *
