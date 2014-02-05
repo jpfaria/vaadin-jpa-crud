@@ -23,6 +23,7 @@
 		<dependency org="org.hibernate" name="hibernate-validator" rev="4.3.1.Final" conf="runtime->default"/>
 		<dependency org="log4j" name="log4j" rev="1.2.16" conf="runtime->default"/>
 		<dependency org="mysql" name="mysql-connector-java" rev="5.1.24" conf="runtime->default"/>
+		<dependency org="javax.validation" name="validation-api" rev="1.1.0.Final" conf="runtime->default"/>
 
 	</dependencies>
 
