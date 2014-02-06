@@ -11,10 +11,10 @@
 	<dependencies>
 	
         <!-- Application Runtime dependencies -->
-        <dependency org="com.vaadin" name="vaadin-server" rev="7.0.3" conf="runtime->default"/>
-		<dependency org="com.vaadin" name="vaadin-client-compiled" rev="7.0.3" conf="runtime->default"/>
-		<dependency org="com.vaadin" name="vaadin-client" rev="7.0.3" conf="runtime->default"/>
-		<dependency org="com.vaadin" name="vaadin-themes" rev="7.0.3" conf="runtime->default"/>
+        <dependency org="com.vaadin" name="vaadin-server" rev="7.1.10" conf="runtime->default"/>
+		<dependency org="com.vaadin" name="vaadin-client-compiled" rev="7.1.10" conf="runtime->default"/>
+		<dependency org="com.vaadin" name="vaadin-client" rev="7.1.10" conf="runtime->default"/>
+		<dependency org="com.vaadin" name="vaadin-themes" rev="7.1.10" conf="runtime->default"/>
         <dependency org="com.vaadin.addon" name="jpacontainer-addon" rev="3.0.0-SNAPSHOT" conf="runtime->default"/>
 		<dependency org="org.vaadin.addon" name="confirmdialog" rev="2.0.4" conf="runtime->default"/>
 		<dependency org="org.slf4j" name="slf4j-api" rev="1.6.4" conf="runtime->default"/>
