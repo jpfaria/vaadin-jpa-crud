@@ -12,7 +12,7 @@
 	<!-- ================================= 
           target: setup
          ================================= -->
-	<target name="setup" depends="webapp.init,ivy.install,ant.contrib.install,ivy.resolve" description="Setup project" />
+	<target name="setup" depends="webapp.init,ivy.install,ant.contrib.install,ivy.resolve.all" description="Setup project" />
 
 	
 </project>
